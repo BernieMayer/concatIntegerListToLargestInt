@@ -6,6 +6,8 @@ public class Driver {
 		System.out.println(concatIntegerListToLargestInt(new int[]{23, 8, 45, 123 }));
 
 	}
+	
+	//@param list the list of integers that will be turned to a string with the greatest value
 	public static String concatIntegerListToLargestInt(int[] list)
 	{
 		String result = new String("");
